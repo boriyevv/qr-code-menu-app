@@ -8,6 +8,8 @@ export default function KitchenPage() {
     listenToOrders(setOrders);
   }, []);
 
+  console.log(orders)
+
   return (
     <div className="kitchen-page">
       <h1>Oshxona Paneli</h1>
